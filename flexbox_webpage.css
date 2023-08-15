@@ -12,3 +12,16 @@ body{
     background-color: #a1c3ff;
     
 }
+
+.navbar{
+    background: #3474e6;
+    color: white;
+    height: 60px;
+    padding: 20px;
+
+}
+
+.logo{
+    font-size: x-large;
+    font-weight: bolder;
+}
