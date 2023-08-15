@@ -36,6 +36,17 @@ body{
     align-items: center;
 }
 
+.item:nth-of-type(1){
+    flex-grow: 1;
+}
+    /* flex-grow makes the item grow 1x responsively, takes entire width of line */
+.item:nth-of-type(2){
+    flex-grow: 2;
+}
+.item:nth-of-type(3){
+    flex-grow: 1;
+}
+
 /* .item:nth-of-type(1){
     order: 3;
 }
@@ -46,6 +57,8 @@ body{
     order: 1;
 } */
 
-.item:nth-of-type(2){
-    flex-basis: 200px; /* flex-basis works as width  */
-}
+/* .item:nth-of-type(2){
+    flex-basis: 200px; 
+} */    /* flex-basis works as width  */
+
+
