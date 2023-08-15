@@ -82,3 +82,16 @@ body{
 }
 
 /* HEADER END */
+
+
+/* SECTION STARTED */
+
+.boxes .container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+
+/* SECTION END */
