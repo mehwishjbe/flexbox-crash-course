@@ -9,16 +9,19 @@ body{
 
 .flex-container{
     display: flex;
-    
     background-color: #f4f4f4;
     justify-content: space-between; /*   */
     align-items: end;
 
-    flex-direction: column;
-    justify-content: space-between;
+
+    flex-direction: row;
+    justify-content: start;
     /* justify-content is the main axis in aspect of column  */      /* main axis is vertical */
     align-items: start;
     /* align-items is the cross axis in aspect of column  */         /* cross axis is horizontal */
+
+    flex-wrap: wrap; /* when item's declare size cannot fit in line anymore, it will move last items to next line responsively  */
+   
 }
 
 .item{
