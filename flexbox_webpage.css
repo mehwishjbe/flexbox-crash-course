@@ -103,3 +103,21 @@ body{
 }
 
 /* SECTION END */
+
+
+/* RESPONSIVE STARTED */
+
+@media (max-width: 768px){
+    .header .container{
+        flex-direction: column;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .boxes .container{
+        display: block;
+        text-align: center;
+    }
+}
+
+/* RESPONSIVE END */
