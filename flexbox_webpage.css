@@ -20,6 +20,12 @@ body{
     padding: 20px;
 
 }
+.navbar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
 
 .logo{
     font-size: x-large;
