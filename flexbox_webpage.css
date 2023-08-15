@@ -25,3 +25,15 @@ body{
     font-size: x-large;
     font-weight: bolder;
 }
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.navbar a:hover{
+    color: lightblue;
+}
