@@ -43,3 +43,12 @@ body{
 .navbar a:hover{
     color: lightblue;
 }
+
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+}
