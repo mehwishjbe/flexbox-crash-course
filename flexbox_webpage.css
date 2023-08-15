@@ -11,15 +11,20 @@ body{
     color:#333;
     background-color: #a1c3ff;
 }
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
 
 /* NAVBAR STARTED */
+
+
 
 .navbar{
     background: #3474e6;
     color: white;
     height: 60px;
-    padding: 20px;
-
 }
 .navbar .container{
     display: flex;
@@ -58,5 +63,22 @@ body{
 
 /* HEADER STARTED */
 
+.header{
+    background-color: #0151cc;
+    color: white;
+    min-height: 400px;
+}
+
+.header h1{
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 /* HEADER END */
